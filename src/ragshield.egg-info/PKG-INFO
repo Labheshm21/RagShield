@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: ragshield
+Version: 0.1.0
+Summary: A reproducible security evaluation harness for retrieval-augmented generation
+Requires-Python: >=3.11
+Requires-Dist: beautifulsoup4>=4.12
+Requires-Dist: fastapi>=0.115
+Requires-Dist: pydantic>=2.8
+Requires-Dist: pypdf>=5.0
+Requires-Dist: uvicorn[standard]>=0.30
+Provides-Extra: dev
+Requires-Dist: httpx>=0.27; extra == "dev"
+Requires-Dist: pytest>=8.3; extra == "dev"

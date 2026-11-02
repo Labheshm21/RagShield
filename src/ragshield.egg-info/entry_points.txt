@@ -1,0 +1,3 @@
+[console_scripts]
+ragshield-api = ragshield.api:main
+ragshield-eval = ragshield.evaluation:main

@@ -1,0 +1,14 @@
+services:
+  rag-api:
+    build: .
+    environment:
+      SECURITY_MODE: ${SECURITY_MODE:-defended}
+      RAGSHIELD_DB: /data/ragshield.db
+    ports:
+      - "8000:8000"
+    volumes:
+      - ragshield-data:/data
+
+volumes:
+  ragshield-data:
+
